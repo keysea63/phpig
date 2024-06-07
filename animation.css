@@ -1,0 +1,10 @@
+#box{
+    background-color: aquamarine;
+}
+@keyframes grow{
+    50%{transform: scale(2, 2)}
+}
+#box:hover{
+    animation-name: grow;
+    animation-duration: 2s;
+}
